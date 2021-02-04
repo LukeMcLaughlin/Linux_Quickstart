@@ -27,6 +27,12 @@ sudo apt-get upgrade
 # Make directory for Installers:
 mkdir /home/kubuntu/Downloads/UniversalInstallers
 
+# Package Management:
+echo 'y' | sudo apt-get install aptitude gdebi synaptic
+
+# Chromium:
+echo 'y' | sudo apt-get install chromium-browser
+
 # Lastpass:
 wget --output-document=/home/kubuntu/Downloads/Universal_Installers/lplinux.tar.bz2 https://download.cloud.lastpass.com/linux/lplinux.tar.bz2
 cd ~Downloads/Universal_Installers
@@ -34,10 +40,15 @@ tar xjvf lplinux.tar.bz2
 ./install_lastpass.sh
 
 
+# Libre GTK:
+echo 'y' | sudo apt-get remove libreoffice-kde
+echo 'y' | sudo apt-get install libreoffice-gtk3
+
 #==============================================
 # SYSTEM SETTINGS: 
 #==============================================
-# Get wallpaper
+# Get wallpapers:
+sudo apt-get install kde-wallpapers-default kde-wallpapers
 wget --output-document=/home/manjaro/Pictures/background.png https://i.redd.it/nrpos80erff61.jpg
 
 # Set Wallpaper
