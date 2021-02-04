@@ -2,33 +2,27 @@
 Bash scripts for automated setup of fresh linux installations (WIP)
 
 # Manjaro
-##Setup:
-
+## Setup:
 ->
 
-##Packages Installed:
-
+## Packages Installed:
 -> 
 
-##Programs Installed:
-
+## Programs Installed:
 -> 
 
-##Settings Changed:
-
+## Settings Changed:
 ->
 
-============================
-          Debian
-============================
-  -> Setup:
-    ->
+# Debian
+## Setup:
+->
 
-  -> Packages Installed:
-    -> 
+## Packages Installed:
+-> 
 
-  -> Programs Installed:
-    -> 
+ ## Programs Installed:
+-> 
 
-  -> Settings Changed:
-    ->
+## Settings Changed:
+->
