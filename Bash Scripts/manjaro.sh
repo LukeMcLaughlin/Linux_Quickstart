@@ -51,3 +51,5 @@ qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript '
         d.writeConfig("Image", "file:///home/manjaro/Pictures/background.png")
     }}
 '
+
+# EOF
