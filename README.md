@@ -16,7 +16,7 @@ Bash scripts for automated setup of fresh linux installations (WIP)
 ## Settings Changed:
 -> Wallpaper downloaded and changed
 
-# Debian
+# Kubuntu
 ## Setup:
 -> System Updates
 
