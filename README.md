@@ -1,20 +1,18 @@
 # Linux_Quickstart
 Bash scripts for automated setup of fresh linux installations (WIP)
 
-============================
-          Manjaro
-============================
-  -> Setup:
-    ->
+# Manjaro
+##Setup:
+          ->
 
-  -> Packages Installed:
-    -> 
+##Packages Installed:
+          -> 
 
-  -> Programs Installed:
-    -> 
+##Programs Installed:
+          -> 
 
-  -> Settings Changed:
-    ->
+##Settings Changed:
+          ->
 
 ============================
           Debian
