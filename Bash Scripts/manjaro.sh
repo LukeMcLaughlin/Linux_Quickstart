@@ -32,6 +32,12 @@ mkdir /home/manjaro/Downloads/UniversalInstallers
 # Lastpass:
 wget --output-document=/home/manjaro/Downloads/UniversalInstallers/lplinux.tar.bz2 https://download.cloud.lastpass.com/linux/lplinux.tar.bz2
 
+
+# Install UI Programs:
+cd ~Downloads/UniversalInstallers
+tar xjvf lplinux.tar.bz2
+ ./install_lastpass.sh
+
 #==============================================
 # SYSTEM SETTINGS: 
 #==============================================

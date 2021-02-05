@@ -38,11 +38,12 @@ echo 'y' | sudo apt-get install chromium-browser
 
 # Lastpass:
 wget --output-document=/home/kubuntu/Downloads/Universal_Installers/lplinux.tar.bz2 https://download.cloud.lastpass.com/linux/lplinux.tar.bz2
+
+
+# Install UI Programs:
 cd ~Downloads/Universal_Installers
 tar xjvf lplinux.tar.bz2
 ./install_lastpass.sh
-
-
 
 
 # Libre GTK:
