@@ -25,10 +25,10 @@ echo 'y' | sudo apt-get install neofetch
 # INSTALL PROGRAMS: 
 #==============================================
 # Make directory for Installers:
-mkdir /home/kubuntu/Downloads/UniversalInstallers
+mkdir /home/kubuntu/Downloads/Universal_Installers
 
 # Package Management:
-echo 'y' | sudo apt-get install aptitude gdebi synaptic
+echo 'y' | sudo apt-get install aptitude gdebi synaptic unzip
 
 # Git:
 echo 'y' | sudo apt-get install git
@@ -41,7 +41,7 @@ wget --output-document=/home/kubuntu/Downloads/Universal_Installers/lplinux.tar.
 
 
 # Install UI Programs:
-cd ~Downloads/Universal_Installers
+cd ~/Downloads/Universal_Installers
 tar xjvf lplinux.tar.bz2
 ./install_lastpass.sh
 
