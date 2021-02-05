@@ -11,7 +11,7 @@ cd ~
 # sudo pacman -Syyu
 
 # Update mirrors and find fastest:
-sudo pacman-mirrors -g
+# sudo pacman-mirrors -g
 
 # Update System:
 # sudo pacman -Syu
