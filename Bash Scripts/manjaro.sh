@@ -35,7 +35,7 @@ wget --output-document=/home/manjaro/Downloads/Universal_Installers/lplinux.tar.
 
 
 # Install UI Programs:
-cd ~Downloads/Universal_Installers
+cd ~/Downloads/Universal_Installers
 tar xjvf lplinux.tar.bz2
  ./install_lastpass.sh
 
