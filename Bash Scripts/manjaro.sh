@@ -20,6 +20,7 @@ sudo pacman -Sy
 #==============================================
 # INSTALL SYSTEM UTILITIES: 
 #==============================================
+echo 'y' | sudo pacman -S unzip
 echo 'y' | sudo pacman -S htop
 echo 'y' | sudo pacman -S neofetch
 
@@ -27,14 +28,14 @@ echo 'y' | sudo pacman -S neofetch
 # INSTALL PROGRAMS: 
 #==============================================
 # Make directory for Installers:
-mkdir /home/manjaro/Downloads/UniversalInstallers
+mkdir /home/manjaro/Downloads/Universal_Installers
 
 # Lastpass:
-wget --output-document=/home/manjaro/Downloads/UniversalInstallers/lplinux.tar.bz2 https://download.cloud.lastpass.com/linux/lplinux.tar.bz2
+wget --output-document=/home/manjaro/Downloads/Universal_Installers/lplinux.tar.bz2 https://download.cloud.lastpass.com/linux/lplinux.tar.bz2
 
 
 # Install UI Programs:
-cd ~Downloads/UniversalInstallers
+cd ~Downloads/Universal_Installers
 tar xjvf lplinux.tar.bz2
  ./install_lastpass.sh
 
