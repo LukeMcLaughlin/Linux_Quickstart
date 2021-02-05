@@ -18,8 +18,8 @@ sudo apt-get upgrade
 #==============================================
 # INSTALL SYSTEM UTILITIES: 
 #==============================================
-# echo 'y' | sudo pacman -S htop
-# echo 'y' | sudo pacman -S neofetch
+echo 'y' | sudo apt-get install htop
+echo 'y' | sudo apt-get install neofetch
 
 #==============================================
 # INSTALL PROGRAMS: 
@@ -30,6 +30,9 @@ mkdir /home/kubuntu/Downloads/UniversalInstallers
 # Package Management:
 echo 'y' | sudo apt-get install aptitude gdebi synaptic
 
+# Git:
+echo 'y' | sudo apt-get install git
+
 # Chromium:
 echo 'y' | sudo apt-get install chromium-browser
 
@@ -38,6 +41,8 @@ wget --output-document=/home/kubuntu/Downloads/Universal_Installers/lplinux.tar.
 cd ~Downloads/Universal_Installers
 tar xjvf lplinux.tar.bz2
 ./install_lastpass.sh
+
+
 
 
 # Libre GTK:
