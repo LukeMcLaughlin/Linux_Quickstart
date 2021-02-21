@@ -54,8 +54,7 @@ echo 'y' | sudo apt-get install libreoffice-gtk3
 # SYSTEM SETTINGS: 
 #==============================================
 # Get wallpapers:
-sudo apt-get install kde-wallpapers-default kde-wallpapers
-wget --output-document=/home/manjaro/Pictures/background.png https://i.redd.it/nrpos80erff61.jpg
+wget --output-document=/home/kubuntu/Pictures/background.png https://i.redd.it/nrpos80erff61.jpg
 
 # Set Wallpaper
 qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript '
@@ -67,6 +66,6 @@ qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript '
         d.currentConfigGroup = Array("Wallpaper",
                                      "org.kde.image",
                                      "General");
-        d.writeConfig("Image", "file:///home/manjaro/Pictures/background.png")
+        d.writeConfig("Image", "file:///home/kubuntu/Pictures/background.png")
     }}
 '
